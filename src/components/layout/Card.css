@@ -1,0 +1,23 @@
+.card{
+    background-color: red;
+    border: 1px red solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+}
+
+.title{
+    padding: 5px;
+    background-color: red;
+    text-align: center;
+}
+
+.content{
+    padding: 20px;
+    background-color: white;
+    color: #000;
+    flex-grow: 1;
+}
