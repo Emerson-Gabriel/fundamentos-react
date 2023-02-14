@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #008b8b;
+    color: white;
+}
+
+.par {
+    background-color: #e6e7e8;
+}
+
+.impar {
+    background-color: blanchedalmond;
+}
