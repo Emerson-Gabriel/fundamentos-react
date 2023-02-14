@@ -5,11 +5,29 @@ import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
+import Familia from './components/basicos/Familia';
+import FamiliaMembro from './components/basicos/FamiliaMembro';
+import ListaAlunos from './components/repeticao/ListaAlunos';
 
 export default _ =>
     <div className="app">
         <h1 className="center">Fundamentos React</h1>
         <div className="cards">
+            <Card titulo="#06 - Repetição" color="#ff4c65">
+                <ListaAlunos></ListaAlunos>
+            </Card>
+            <Card titulo="#05 - Componentes com Filhos" color="#00c8f8">
+                <Familia sobrenome="Fernandes">
+                    <FamiliaMembro nome="Emerson"></FamiliaMembro>
+                    <FamiliaMembro nome="Naya"></FamiliaMembro>
+                    <FamiliaMembro nome="Zeka"></FamiliaMembro>
+                {/*
+                    Exemplo de comentário react
+                    <FamiliaMembro nome="Naya"></FamiliaMembro>
+                    <FamiliaMembro nome="Zeka"></FamiliaMembro>
+                */}
+                </Familia>
+            </Card>
             <Card titulo="#04 - Desafio Aleatório" color="#fa6900">
                 <Aleatorio  max={97}  min={13} />
             </Card>
