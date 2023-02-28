@@ -14,3 +14,7 @@ table th {
 .impar {
     background-color: blanchedalmond;
 }
+
+.text-center{
+    text-align: center;
+}
